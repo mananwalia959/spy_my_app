@@ -1,4 +1,4 @@
-from spy_info import spy_admin,friend_list,spy,addchat    #IMPORTING main spy,spy friends and used functions
+from spy_details import spy_admin,friend_list,spy,addchat    #IMPORTING main spy,spy friends and used functions
 from steganography.steganography import Steganography
 from datetime import datetime
 
