@@ -156,10 +156,10 @@ else:                                             # crete your own identity
         spy_age = int(spy_age)
         if(spy_age < 80 and spy_age >=14):
 
-            spy_rating = raw_input("enter rating")
+            spy_rating = float(raw_input("enter rating"))
             if(spy_rating<=5 and spy_rating>=0):
 
-                spy_rating = float(spy_rating)
+                
                 if spy_rating > 4.5:
                     print"You are excellent"
                 elif spy_rating > 3:
